@@ -1,6 +1,6 @@
 package banking.fundsbank.dto;
 
-//create table customer(acc_num int NOT NULL PRIMARY KEY, first_name varchar(50) NOT NULL, last_name varchar(50), Age int, mobile_num decimal, account_type varchar(50), address varchar(100));
+//create table customer(acc_num decimal NOT NULL PRIMARY KEY, first_name varchar(50) NOT NULL, last_name varchar(50), Age int, mobile_num decimal, account_type varchar(50), address varchar(100));
 public class Customer {
 	private long accNo;
 	private String firstName;
